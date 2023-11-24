@@ -36,7 +36,7 @@ curl https://raw.githubusercontent.com/Olygo/OCI_DR-Reserved_PIP/main/script.py 
 ##### Grant Admin permissions to the Compute Instance run command plugin. 
 The plugin runs as the ocarun user.
 
-From [Invoke custom scripts using the run command with OCI FSDRS](https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/Identity/Tasks/callingservicesfrominstances.htm) apply :
+From [Invoke custom scripts using the run command with OCI FSDRS](https://docs.oracle.com/en/learn/full-stack-dr-run-command/index.html#introduction) apply :
 
 - "**Task 3. Configure and validate run command in the source VM**"
 
