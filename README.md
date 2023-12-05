@@ -1,6 +1,6 @@
 # OCI_DR-WITH-RESERVED-PIP
 
-In this scenario, our objective is to automatically restaure a Compute Instance from one Availability Domain (AD) to another within the same region. 
+In this scenario, our objective is to automatically restore a Compute Instance from one Availability Domain (AD) to another within the same region. 
 Specifically, we are transitioning from Frankfurt AD3 to AD1.
 
 While [Full Stack Disaster Recovery](https://docs.oracle.com/en-us/iaas/disaster-recovery/index.html) facilitates the reassignment of the same Private IP, if there is a requirement to also reallocate a Reserved Public IP, utilization of the provided script becomes essential. It is imperative that this script is present locally on each compute instance, irrespective of whether it operates on a Linux or Windows environment.
@@ -220,7 +220,7 @@ Compute instance is created in AD1 using an Ephemeral Public IP
 
 ![26](./.images/26.png)
 
-##### Instance restaured in AD1 using the same Public/Private IPs :
+##### Instance restored in AD1 using the same Public/Private IPs :
 
 ![27](./.images/27.png)
 
